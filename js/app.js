@@ -17,7 +17,7 @@ let q1;
 function myAge() {
   q1 = prompt( 'my age is 22?' ).toUpperCase().toLowerCase();
   while ( q1 !== 'yes' && q1 !== 'no'
-  && q1 !== 'yes' && q1 !== 'no' ) {
+  && q1 !== 'y' && q1 !== 'n' ) {
     q1 = prompt( 'my age is 22?' ).toUpperCase().toLowerCase();}
 
   if ( q1 === 'yes' ) {
