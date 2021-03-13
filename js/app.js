@@ -20,12 +20,12 @@ function myAge() {
   && q1 !== 'y' && q1 !== 'n' ) {
     q1 = prompt( 'my age is 22?' ).toUpperCase().toLowerCase();}
 
-  if ( q1 === 'yes' ) {
+  if ( q1 === 'yes' || q1 === 'y') {
     alert( 'right' );
     score++;
   }
 
-  else if ( q1 === 'no' ) {
+  else if ( q1 === 'no' || q1 === 'n' ) {
     alert( 'wrong' );
   }
 
